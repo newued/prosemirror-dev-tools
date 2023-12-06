@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import type { EditorView } from "prosemirror-view";
+import type { EditorView } from "@tiptap/pm/view";
 import DevTools from "./dev-tools";
 
-const DEVTOOLS_CLASS_NAME = "__prosemirror-dev-tools__";
+const DEVTOOLS_CLASS_NAME = "__tiptap-dev-tools__";
 
 function createPlace() {
   let place = document.querySelector(`.${DEVTOOLS_CLASS_NAME}`);

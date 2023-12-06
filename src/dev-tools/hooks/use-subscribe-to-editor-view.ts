@@ -1,5 +1,5 @@
 import { useSetAtom } from "jotai";
-import type { EditorView } from "prosemirror-view";
+import type { EditorView } from "@tiptap/pm/view";
 import React from "react";
 import { editorStateAtom } from "../state/editor-state";
 import { editorViewAtom } from "../state/editor-view";

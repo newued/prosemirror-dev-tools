@@ -7,6 +7,4 @@ yarn.lock
 pnpm-lock.yaml
 package-lock.json
 /test-results/
-/playwright-report/
-/playwright/.cache/
 .npmrc

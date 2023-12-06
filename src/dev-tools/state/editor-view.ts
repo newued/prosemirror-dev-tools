@@ -1,4 +1,4 @@
 import { atom } from "jotai";
-import type { EditorView } from "prosemirror-view";
+import type { EditorView } from "@tiptap/pm/view";
 
 export const editorViewAtom = atom<EditorView | null>(null);

@@ -6,7 +6,7 @@ const customPreStyles = css({
   padding: "9px 0 18px 0 !important",
   margin: 0,
   color: theme.white80,
-  "& .prosemirror-dev-tools-highlighter-tag": {
+  "& .tiptap-dev-tools-highlighter-tag": {
     color: theme.main,
   },
 });
@@ -23,7 +23,7 @@ const highlight = (str: string) =>
     .replace(/>/g, "&gt;")
     .replace(
       regexp,
-      "<span class='prosemirror-dev-tools-highlighter-tag'>$&</span>"
+      "<span class='tiptap-dev-tools-highlighter-tag'>$&</span>"
     );
 
 type HighlighterFC = React.FC<{ children: string }>;

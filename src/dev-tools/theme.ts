@@ -37,7 +37,7 @@ const mainTheme = {
   white60: "rgba(205, 214, 244, .6)",
   white80: "rgba(205, 214, 244, .8)",
 
-  black30: "#11111B",
+  black30: "#rgba(0,0,0.1)",
 
   // For diffs and structure
   lightYellow: "rgba(205, 214, 244, .2)",

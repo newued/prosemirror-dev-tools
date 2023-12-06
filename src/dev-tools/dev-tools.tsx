@@ -1,6 +1,6 @@
 import React from "react";
 import { useAtom, useAtomValue } from "jotai";
-import type { EditorView } from "prosemirror-view";
+import type { EditorView } from "@tiptap/pm/view";
 import { devToolsOpenedAtom, devToolsSizeAtom } from "./state/global";
 import DevToolsCollapsed from "./dev-tools-collapsed";
 import DevToolsExpanded from "./dev-tools-expanded";

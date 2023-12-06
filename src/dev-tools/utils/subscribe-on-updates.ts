@@ -1,5 +1,5 @@
 import type { EditorState, Transaction } from "prosemirror-state";
-import type { EditorView } from "prosemirror-view";
+import type { EditorView } from "@tiptap/pm/view";
 
 type subsctibeCallback = (
   tr: Transaction,

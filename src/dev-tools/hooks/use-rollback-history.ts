@@ -1,7 +1,7 @@
 import React from "react";
 import { useSetAtom } from "jotai";
 import { Selection } from "prosemirror-state";
-import type { EditorView } from "prosemirror-view";
+import type { EditorView } from "@tiptap/pm/view";
 import { editorStateAtom } from "../state/editor-state";
 import { type HistoryItem, historyRolledBackToAtom } from "../state/history";
 import getEditorStateClass from "../state/get-editor-state";

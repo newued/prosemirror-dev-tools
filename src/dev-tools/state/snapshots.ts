@@ -1,6 +1,6 @@
 import { atomWithStorage, useReducerAtom } from "jotai/utils";
 
-const SNAPSHOTS_KEY = "prosemirror-dev-tools-snapshots";
+const SNAPSHOTS_KEY = "tiptap-dev-tools-snapshots";
 const snapshotsAtom = atomWithStorage<Array<Snapshot>>(SNAPSHOTS_KEY, []);
 
 type SnapshotReducerAction =
